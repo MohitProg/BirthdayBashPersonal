@@ -13,7 +13,7 @@ const MenuTab = () => {
     console.log("pathname",pathname)
   return (
  
-        <div className="sticky flex items-center  bg-white py-3 px-2  justify-around bottom-0 left-0 right-0 ">
+        <div className="sticky grid grid-cols-5 gap-2  bg-white py-3 px-2  justify-around bottom-0 left-0 right-0 ">
           <Link href={"/home"} className={`flex items-center  justify-center flex-col ${pathname==="/home"?"text-icon":"text-gray-400"}`}>
             <RxHome size={18}  />
             <span className="text-xs">Home</span>

@@ -41,7 +41,7 @@ const AddBithdayPost = () => {
       <DialogTrigger className="flex items-center justify-center flex-col">
         {" "}
         <FaPlus size={18} />
-        <span className="text-xs">Add Post</span>
+        <span className="text-xs"> Birthday</span>
       </DialogTrigger>
       <DialogContent className="p-2 py-4">
         <DialogHeader>

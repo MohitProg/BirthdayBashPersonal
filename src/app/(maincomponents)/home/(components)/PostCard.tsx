@@ -64,18 +64,18 @@ const PostCard = () => {
           />
         </CardContent>
 
-        <CardFooter className="flex items-center justify-between gap-5">
+        <CardFooter className="flex items-center justify-between gap-5 py-2">
           <div className="flex items-center gap-2">
-            <span className="text-xs">5 cake</span>
+            <span className="text-sm">5 cake</span>
             <FaBirthdayCake size={18} />
           </div>
 
           <div className="flex items-center gap-2">
-            <span className="text-xs"> 2 wishes</span>
+            <span className="text-sm"> 2 wishes</span>
             <TbJewishStar size={20} />
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-xs">2 Gift Send</span>
+            <span className="text-sm">2 Gift Send</span>
             <CiDeliveryTruck size={20} />
           </div>
         </CardFooter>
