@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import MenuTab from "./home/(components)/MenuTab";
+import Header from "@/components/UiComponents/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,8 +29,16 @@ export default function MainComponentLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
-          <MenuTab/>
+        <main className="bg-main-bg min-h-screen relative flex flex-col">
+    
+        
+
+          <div className="flex-1"> {children}</div>
+
+          <div className="fixed bottom-0 left-0 right-0">
+            <MenuTab />
+          </div>
+        </main>
       </body>
     </html>
   );
