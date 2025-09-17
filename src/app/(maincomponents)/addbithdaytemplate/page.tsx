@@ -1,9 +1,11 @@
 import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import BirthdayPost from "./(components)/BirthdayPost";
+
 import { IoIosArrowBack } from "react-icons/io";
-import AddBithday from "./(components)/AddBithday";
+
 import Back from "@/components/UiComponents/Back";
+import BirthdayPost from "./(components)/BirthdayPost";
+import AddBithday from "./(components)/AddBithday";
 
 const page = () => {
   return (
