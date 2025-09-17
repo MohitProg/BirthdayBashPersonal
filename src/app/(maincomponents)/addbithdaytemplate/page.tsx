@@ -3,9 +3,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 import { IoIosArrowBack } from "react-icons/io";
 
+import BirthdayPost from "./(Components)/BirthdayPost";
+import AddBithday from "./(Components)/AddBithday";
 import Back from "@/components/UiComponents/Back";
-import BirthdayPost from "./(components)/BirthdayPost";
-import AddBithday from "./(components)/AddBithday";
 
 const page = () => {
   return (
