@@ -19,7 +19,6 @@ const page = () => {
               <IoAddCircleOutline size={40} className="text-btn-main" />
               <span className="text-xs">Add Status</span>
             </div>
-
             <Avatar className="h-14 w-14">
               <AvatarImage src="https://github.com/shadcn.png" />
               <AvatarFallback>CN</AvatarFallback>

@@ -1,28 +1,29 @@
 import React from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import BirthdayPost from "./(Components)/BirthdayPost";
+import BirthdayPost from "./(components)/BirthdayPost";
 import { IoIosArrowBack } from "react-icons/io";
-import AddBirthdayofuser from "./(Components)/AddBirthdayofuser";
+import AddBithday from "./(components)/AddBithday";
+import Back from "@/components/UiComponents/Back";
 
 const page = () => {
   return (
     <div className=" relative py-2 ">
       <Tabs defaultValue="account" className=" p-1 ">
-        <TabsList className="w-full bg-main-bg py-6">
-          <IoIosArrowBack size={20} className="mr-5" />
+        <TabsList className="w-full  py-6">
+          <Back />
 
-          <TabsTrigger className="h-10 " value="account">
+          <TabsTrigger className="h-10 ml-4 " value="account">
             Add BirthdayPost
           </TabsTrigger>
-          <TabsTrigger value="password" className="h-10">
+          <TabsTrigger value="password" className="h-10 ml-4 ">
             Add Birthday
           </TabsTrigger>
         </TabsList>
-        <TabsContent value="account">
+        <TabsContent value="account" className="py-4">
           <BirthdayPost />
         </TabsContent>
-        <TabsContent value="password">
-            <AddBirthdayofuser/>
+        <TabsContent value="password" className="py-4">
+          <AddBithday />
         </TabsContent>
       </Tabs>
     </div>

@@ -5,15 +5,17 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export default function Home() {
   return (
     <>
-      <div className="py-8">
-        <div className="h-full w-full flex flex-col gap-6 items-center  justify-center ">
+      <div className="h-full w-full">
+        <div className=" py-10 flex flex-col gap-6 items-center  justify-center ">
           {/* <Image
             alt="Loading"
             className="object-cover"
             fill
             src={"/images/main.jpg"}
           /> */}
-          <h1 className="text-2xl text-center font-semibold">Your Wishes Makes  Some <br/> One Happy 😍</h1>
+          <h1 className="text-2xl text-center font-semibold">
+            Your Wishes Makes Some <br /> One Happy 😍
+          </h1>
           <Avatar className="h-52 w-52 ring-2  ring-btn-main">
             <AvatarImage src="/images/main2.jpg" />
             <AvatarFallback>CN</AvatarFallback>
