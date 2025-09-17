@@ -15,7 +15,7 @@ import { FcGoogle } from "react-icons/fc";
 const page = () => {
   return (
     <>
-      <div className="h-screen w-full bg-main-bg[#dde2ee] p-2 flex items-center  justify-center ">
+      <div className=" p-2 flex items-center  justify-center h-full ">
         <Card className="w-full">
           <CardHeader>
             <CardTitle>Login Your Acocunt</CardTitle>

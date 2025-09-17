@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export default function Home() {
   return (
     <>
-      <div className="h-screen w-full bg-white relative">
+      <div className="py-8">
         <div className="h-full w-full flex flex-col gap-6 items-center  justify-center ">
           {/* <Image
             alt="Loading"

@@ -28,7 +28,11 @@ export default function AuthLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+
+        <div className="min-h-screen h-screen w-full bg-white relative">
+
         {children}
+        </div>
    
       </body>
     </html>
